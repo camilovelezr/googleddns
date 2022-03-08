@@ -1,6 +1,7 @@
 import logging
 import json
 import requests
+import os
 from pathlib import Path
 
 """
@@ -19,7 +20,8 @@ logger.addHandler(fhandler)
 
 
 def config():
-    path = Path(__file__).parent.parent.joinpath("config.json")
+    path = Path(os.path.realpath(__file__))
+    path = path.parent.parent.joinpath("config.json")
     with open(path, "rb") as f:
         config = json.loads(f.read())
     return config
