@@ -1,3 +1,6 @@
+*This repo will be archived since Squarespace purchased all domain name registrations and accounts on Google Domains and this service will not be available.*
+
+
 # Google Dynamic DNS Updater - Python - Julia
 This repo includes scripts in Python and Julia to automatically update a Google Domains domain's DDNS.
 Follow instructions [here](https://support.google.com/domains/answer/6147083?hl=en) to set up DDNS for your domain.
